@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1038394238101",
+    "firebase_url": "https://epicentre-test.firebaseio.com",
+    "project_id": "epicentre-test",
+    "storage_bucket": "epicentre-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038394238101:android:437b85f16a407a33",
+        "android_client_info": {
+          "package_name": "in.ac.siesgst.arena.epicentre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1038394238101-iaqmf9bdh6v420atllr53q9urnkso1om.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.ac.siesgst.arena.epicentre",
+            "certificate_hash": "9896c45b367cd7f5c76c96b322da5bd830d1da4f"
+          }
+        },
+        {
+          "client_id": "1038394238101-fcddobob5afqp4fmtr0cd3b7eq30i1jj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9xkO3e39f3lb51gqg0pzg5_b9kjfbv98"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1038394238101-fcddobob5afqp4fmtr0cd3b7eq30i1jj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
