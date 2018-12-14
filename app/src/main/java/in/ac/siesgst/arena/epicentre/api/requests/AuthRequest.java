@@ -1,6 +1,7 @@
 package in.ac.siesgst.arena.epicentre.api.requests;
 
 import android.support.design.widget.Snackbar;
+import android.util.Log;
 import android.view.View;
 
 import com.androidnetworking.AndroidNetworking;
@@ -40,7 +41,8 @@ public class AuthRequest {
                 .getAsJSONObject(new JSONObjectRequestListener() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        if (response.optString("status").equals("OK") &&
+                        Log.v(LOG_TAG, response.toString());
+                        if (response.optInt("status") == 200 &&
                                 response.optInt("code") == 200) {
                             JSONObject dataObject = response.optJSONObject("data");
                             String token = dataObject.optString("token");
