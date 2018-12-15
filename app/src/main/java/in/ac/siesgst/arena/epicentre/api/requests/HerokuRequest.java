@@ -40,7 +40,7 @@ public class HerokuRequest {
                 .getAsJSONObject(new JSONObjectRequestListener() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        if (response.optInt("status") == 200 &&
+                        if (response.optString("status").equals("OK") &&
                                 response.optInt("code") == 200) {
                             JSONObject dataObject = response.optJSONObject("data");
                             JSONObject infoObject = dataObject.optJSONObject("info");
@@ -117,7 +117,7 @@ public class HerokuRequest {
                 .getAsJSONObject(new JSONObjectRequestListener() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        if (response.optInt("status") == 200 &&
+                        if (response.optString("status").equals("OK") &&
                                 response.optInt("code") == 200) {
                             herokuViewModel.updateMaintenance(Boolean.parseBoolean(finalValue));
                             Toast.makeText(context, response.optString("message"), Toast.LENGTH_LONG).show();
