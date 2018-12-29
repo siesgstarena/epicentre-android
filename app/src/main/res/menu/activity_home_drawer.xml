@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view">
+
+    <item android:title="Application">
+        <menu>
+            <item
+                android:id="@+id/nav_app_logs"
+                android:icon="@drawable/ic_menu_app_logs"
+                android:title="Logs" />
+            <item
+                android:id="@+id/nav_app_database"
+                android:icon="@drawable/ic_menu_app_database"
+                android:title="Database" />
+        </menu>
+    </item>
+
+    <item android:title="Cloud Services">
+        <menu>
+            <item
+                android:id="@+id/nav_heroku"
+                android:icon="@drawable/ic_menu_heroku"
+                android:title="Heroku"
+                app:itemIconTint="@color/primaryTextColor" />
+            <!--<item-->
+            <!--android:id="@+id/nav_aws"-->
+            <!--android:icon="@drawable/ic_menu_aws"-->
+            <!--app:itemIconTint="@color/primaryTextColor"-->
+            <!--android:title="Amazon Web Services" />-->
+        </menu>
+    </item>
+
+    <item android:title="Continuous Integration">
+        <menu>
+            <item
+                android:id="@+id/nav_travis_ci"
+                android:icon="@drawable/ic_menu_travis_ci"
+                android:title="Travis CI" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#212121</color>
+    <color name="primaryLightColor">#484848</color>
+    <color name="primaryDarkColor">#000000</color>
+    <color name="secondaryColor">#00e676</color>
+    <color name="secondaryLightColor">#66ffa6</color>
+    <color name="secondaryDarkColor">#00b248</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="secondaryTextColor">#000000</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="buildPassed">#39AA56</color>
+    <color name="buildFailed">#DB4545</color>
+
+    <color name="heroku">#79589F</color>
+    <color name="database">#589636</color>
+    <color name="firebase">#EE6600</color>
+    <color name="travis">#ECC400</color>
+</resources>
