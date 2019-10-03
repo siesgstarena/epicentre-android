@@ -7,7 +7,7 @@ Cloud Monitoring and Deployment Tool for Android built by SIESGSTarena Platform 
 
 ## About The Project
 
-TODO: Add Information and Blog Post
+TODO: Add Information and Blog Post.
 
 ## Architecture
 <img src="images/architecture.png" width="100%">
