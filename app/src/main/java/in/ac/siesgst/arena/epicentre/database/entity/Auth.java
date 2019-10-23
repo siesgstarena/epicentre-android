@@ -1,7 +1,7 @@
 package in.ac.siesgst.arena.epicentre.database.entity;
 
-import android.arch.persistence.room.Entity;
-import android.arch.persistence.room.PrimaryKey;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
 /**
  * Created by SIESGSTarena on 02/12/18.

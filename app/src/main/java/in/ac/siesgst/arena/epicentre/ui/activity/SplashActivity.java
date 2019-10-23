@@ -1,10 +1,10 @@
 package in.ac.siesgst.arena.epicentre.ui.activity;
 
-import android.arch.lifecycle.ViewModelProviders;
+import androidx.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
 import in.ac.siesgst.arena.epicentre.R;
 import in.ac.siesgst.arena.epicentre.utils.InjectorUtils;

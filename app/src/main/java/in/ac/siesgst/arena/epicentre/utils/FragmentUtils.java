@@ -1,9 +1,9 @@
 package in.ac.siesgst.arena.epicentre.utils;
 
 import android.content.Context;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.appcompat.app.AppCompatActivity;
 
 import in.ac.siesgst.arena.epicentre.R;
 

@@ -1,8 +1,8 @@
 package in.ac.siesgst.arena.epicentre.viewmodel.auth;
 
-import android.arch.lifecycle.ViewModel;
-import android.arch.lifecycle.ViewModelProvider;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.ViewModel;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.annotation.NonNull;
 
 import in.ac.siesgst.arena.epicentre.repository.AuthRepository;
 

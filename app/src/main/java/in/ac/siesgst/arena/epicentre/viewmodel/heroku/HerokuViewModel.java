@@ -1,7 +1,7 @@
 package in.ac.siesgst.arena.epicentre.viewmodel.heroku;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.ViewModel;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.ViewModel;
 
 import in.ac.siesgst.arena.epicentre.database.entity.Heroku;
 import in.ac.siesgst.arena.epicentre.repository.HerokuRepository;
