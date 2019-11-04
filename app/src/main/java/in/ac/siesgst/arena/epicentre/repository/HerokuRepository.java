@@ -1,6 +1,6 @@
 package in.ac.siesgst.arena.epicentre.repository;
 
-import android.arch.lifecycle.LiveData;
+import androidx.lifecycle.LiveData;
 
 import in.ac.siesgst.arena.epicentre.AppExecutors;
 import in.ac.siesgst.arena.epicentre.database.dao.HerokuDao;

@@ -1,7 +1,7 @@
 package in.ac.siesgst.arena.epicentre.viewmodel.auth;
 
-import android.arch.lifecycle.LiveData;
-import android.arch.lifecycle.ViewModel;
+import androidx.lifecycle.LiveData;
+import androidx.lifecycle.ViewModel;
 
 import in.ac.siesgst.arena.epicentre.database.entity.Auth;
 import in.ac.siesgst.arena.epicentre.repository.AuthRepository;
